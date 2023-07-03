@@ -7,7 +7,7 @@ SPL [Token-swap](https://github.com/solana-labs/solana-program-library/tree/mast
 First, install dependencies:
 
 ```
-$ yarn
+$ yarn install
 ```
 
 Next, we will build and deploy the program via Anchor.
@@ -16,7 +16,7 @@ Get the program ID:
 
 ```
 $ anchor keys list
-anchor_amm: 4CkSf34hTH2rGmgFDCm5WCFE8sHpfdBzrBChEScJBxoM
+anchor_amm: J5fjkFW5nrUuzD4eMD6c1ZS765KvMLyk1dpMm6aac2Nf
 ```
 
 Here, make sure you update your program ID in `Anchor.toml` and `lib.rs`.
@@ -33,7 +33,7 @@ Let's deploy the program. Notice that `anchor-amm` will be deployed on a [mainne
 $ anchor deploy
 ...
 
-Program Id: 4CkSf34hTH2rGmgFDCm5WCFE8sHpfdBzrBChEScJBxoM
+Program Id: J5fjkFW5nrUuzD4eMD6c1ZS765KvMLyk1dpMm6aac2Nf
 
 Deploy success
 ```
