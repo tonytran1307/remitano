@@ -27,7 +27,6 @@ Build the program:
 $ anchor build
 ```
 
-Let's deploy the program. Notice that `anchor-amm` will be deployed on a [mainnet-fork](https://github.com/DappioWonderland/solana) test validator run by Dappio:
 
 ```
 $ anchor deploy
